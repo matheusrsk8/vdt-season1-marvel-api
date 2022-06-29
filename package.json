@@ -1,0 +1,29 @@
+{
+  "name": "vdt-season1-marvel-api",
+  "version": "1.0.0",
+  "description": "Projeto de automacao API da marvel Viver de Teste Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run back2thepast && npx cypress run",
+    "back2thepast": "sh ./back2thepast.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusrsk8/vdt-season1-marvel-api.git"
+  },
+  "keywords": [
+    "cypress",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Matheus Rocha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheusrsk8/vdt-season1-marvel-api/issues"
+  },
+  "homepage": "https://github.com/matheusrsk8/vdt-season1-marvel-api#readme",
+  "devDependencies": {
+    "@bahmutov/cy-api": "^2.1.3",
+    "cypress": "^9.7.0"
+  }
+}
